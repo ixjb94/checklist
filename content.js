@@ -3,7 +3,7 @@ const draggableDiv = document.createElement("div");
 draggableDiv.innerHTML = `<button id="hideButton">X</button>`;
 draggableDiv.id = "draggableDiv";
 draggableDiv.style.position = "fixed";
-draggableDiv.style.zIndex = "9999";
+draggableDiv.style.zIndex = "1";
 draggableDiv.style.backgroundColor = "white";
 draggableDiv.style.color = "black";
 draggableDiv.style.padding = "10px";
