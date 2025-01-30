@@ -1,0 +1,12 @@
+{
+  "name": "@ixjb94/checklist",
+  "version": "1.0.0",
+  "description": "Checklist",
+  "keywords": [],
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/ixjb94/checklist.git"
+	},
+  "author": "IX JB",
+	"license": "MIT"
+}

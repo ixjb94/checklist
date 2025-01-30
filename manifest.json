@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Checklist",
+  "version": "1.0",
+  "description": "Checklist",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["content.html"],
+    "matches": ["<all_urls>"]
+  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
